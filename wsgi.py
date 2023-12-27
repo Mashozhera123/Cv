@@ -7,3 +7,4 @@ if project_home not in sys.path:
 
 # Import your Flask app and rename it to "application" for WSGI
 from main import app as application
+  
