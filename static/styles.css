@@ -1,0 +1,66 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 20px;
+}
+
+/* Header Styles */
+h1 {
+    color: #009c8f;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Section Heading Styles */
+h2 {
+    color: #333;
+    border-bottom: 2px solid #009c8f;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+/* Paragraph Styles */
+p {
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Link Styles */
+a {
+    color: #009c8f;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #009c8f;
+}
+
+/* Section Styles */
+.contact-info, .academic-history, .areas-of-expertise {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect for Sections */
+.contact-info:hover, .academic-history:hover, .areas-of-expertise:hover {
+    transform: scale(1.02);
+}
+
+/* List Styles within Areas of Expertise */
+.areas-of-expertise ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* List Item Styles within Areas of Expertise */
+.areas-of-expertise li {
+    margin-bottom: 5px;
+}
+
